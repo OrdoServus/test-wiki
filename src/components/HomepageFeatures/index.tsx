@@ -5,48 +5,53 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg?: React.ComponentType<React.ComponentProps<'svg'>>;
+  imgSrc?: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Liturgische Tools',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Liturgische Ressourcen',
+    imgSrc: '/img/10.svg',
     description: (
       <>
-        OrdoServus bietet umfassende liturgische Hilfsmittel für die katholische Gemeinschaft,
-        um Gottesdienste und Feiern zu unterstützen.
+        Umfassende Sammlung liturgischer Texte, Gebete und Anleitungen
+        für Messfeiern, Stundengebet und besondere Anlässe. Alles an einem Ort.
       </>
     ),
   },
   {
-    title: 'Gemeinschaft und Zusammenarbeit',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Gemeindeverwaltung',
+    imgSrc: '/img/01.svg',
     description: (
       <>
-        Fördert die Zusammenarbeit innerhalb der katholischen Gemeinschaft durch
-        gemeinsame Dokumentation und Wissensbasis.
+        Werkzeuge zur Organisation und Verwaltung Ihrer Pfarrei:
+        Kalender, Ministrantenpläne, Lektorendienste und mehr.
       </>
     ),
   },
   {
-    title: 'Benutzerfreundlich und Zugänglich',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Einfach & Zugänglich',
+    imgSrc: '/img/11.svg',
     description: (
       <>
-        Einfach zu bedienen und auf moderne Technologien basierend, um allen
-        Mitgliedern der Gemeinschaft zugänglich zu sein.
+        Intuitiv bedienbar und auf allen Geräten verfügbar.
+        Für Priester, Diakone, Pastoralreferenten und ehrenamtliche Mitarbeiter.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, imgSrc, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {imgSrc ? (
+          <img src={imgSrc} alt={title} className={styles.featureSvg} />
+        ) : (
+          Svg && <Svg className={styles.featureSvg} role="img" />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
