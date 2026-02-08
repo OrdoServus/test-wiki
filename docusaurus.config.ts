@@ -11,17 +11,14 @@ const config: Config = {
     v4: true,
   },
 
-  // Produktions-URL deiner Website
   url: 'https://ordoservus.github.io',
   baseUrl: '/',
 
-  // GitHub Pages Konfiguration
   organizationName: 'ordoservus',
   projectName: 'ordowiki',
 
   onBrokenLinks: 'throw',
 
-  // Sprache auf Deutsch setzen
   i18n: {
     defaultLocale: 'de',
     locales: ['de'],
@@ -43,7 +40,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/ordoservus-social-card.jpg',
+    image: 'img/logo.svg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -61,13 +58,8 @@ const config: Config = {
           label: '📖 Dokumentation',
         },
         {
-          to: '/docs/liturgie/einleitung',
-          label: '⛪ Liturgie',
-          position: 'left',
-        },
-        {
-          to: '/docs/verwaltung/uebersicht',
-          label: '🗂️ Verwaltung',
+          to: '/docs/funktion/intro',
+          label: '🗂️ Funktionen',
           position: 'left',
         },
         {
@@ -88,36 +80,31 @@ const config: Config = {
               to: '/docs/intro',
             },
             {
-              label: 'Liturgie',
-              to: '/docs/liturgie/einleitung',
-            },
-            {
-              label: 'Verwaltung',
-              to: '/docs/verwaltung/uebersicht',
+              label: 'OrdoServus',
+              href: 'https://github.com/ordoservus/ordowiki',
             },
           ],
         },
         {
-          title: 'Ressourcen',
+          title: 'Funktionen',
           items: [
             {
-              label: 'Messbuch',
-              to: '/docs/liturgie/messbuch',
+              label: 'Startleitfaden',
+              to: '/docs/startleitfaden',
             },
             {
-              label: 'Stundengebet',
-              to: '/docs/liturgie/stundengebet',
+              label: 'Notizbuch',
+              to: '/docs/funktion/notizbuch',
             },
             {
-              label: 'Kalender',
-              to: '/docs/verwaltung/kalender',
+              label: 'GD-Planer',
+              to: '/docs/funktion/gd-planer',
             },
           ],
         },
         {
           title: 'Community',
           items: [
-
             {
               label: 'GitHub',
               href: 'https://github.com/ordoservus/ordowiki',
