@@ -58,7 +58,7 @@ const config: Config = {
           label: '📖 Dokumentation',
         },
         {
-          to: '/docs/funktion/intro',
+          to: '/docs/Funktion/intro',
           label: '🗂️ Funktionen',
           position: 'left',
         },
@@ -94,11 +94,11 @@ const config: Config = {
             },
             {
               label: 'Notizbuch',
-              to: '/docs/funktion/notizbuch',
+              to: '/docs/Funktion/notizbuch',
             },
             {
               label: 'GD-Planer',
-              to: '/docs/funktion/gd-planer',
+              to: '/docs/Funktion/gd-planer',
             },
           ],
         },
