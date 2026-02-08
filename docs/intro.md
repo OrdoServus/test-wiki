@@ -2,46 +2,39 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Willkommen bei OrdoServus
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Willkommen in der Dokumentation und Wissensbasis für **OrdoServus**, einer katholischen Software zur Unterstützung liturgischer Aktivitäten und Gemeinschaftsarbeit.
 
-## Getting Started
+## Was ist OrdoServus?
 
-Get started by **creating a new site**.
+OrdoServus ist eine Softwarelösung, die speziell für die katholische Gemeinschaft entwickelt wurde. Sie bietet Tools für die Organisation von Gottesdiensten, die Verwaltung liturgischer Texte und die Förderung der Zusammenarbeit innerhalb der Kirche.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Erste Schritte
 
-### What you'll need
+Um mit OrdoServus zu beginnen, installieren Sie die Software und erkunden Sie die verfügbaren Funktionen.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Voraussetzungen
 
-## Generate a new site
+- [Node.js](https://nodejs.org/en/download/) Version 20.0 oder höher:
+  - Bei der Installation von Node.js wird empfohlen, alle Kontrollkästchen für Abhängigkeiten zu aktivieren.
 
-Generate a new Docusaurus site using the **classic template**.
+## Installation
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Installieren Sie OrdoServus über npm:
 
 ```bash
-cd my-website
-npm run start
+npm install ordoservus
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Starten der Anwendung
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Starten Sie den Entwicklungsserver:
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```bash
+npm start
+```
+
+Die Anwendung läuft dann lokal unter http://localhost:3000/.
+
+Bearbeiten Sie diese Dokumentation, um Ihre eigenen Inhalte hinzuzufügen. Die Seite lädt automatisch neu und zeigt Ihre Änderungen an.

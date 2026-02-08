@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Liturgische Tools',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        OrdoServus bietet umfassende liturgische Hilfsmittel für die katholische Gemeinschaft,
+        um Gottesdienste und Feiern zu unterstützen.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Gemeinschaft und Zusammenarbeit',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Fördert die Zusammenarbeit innerhalb der katholischen Gemeinschaft durch
+        gemeinsame Dokumentation und Wissensbasis.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Benutzerfreundlich und Zugänglich',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Einfach zu bedienen und auf moderne Technologien basierend, um allen
+        Mitgliedern der Gemeinschaft zugänglich zu sein.
       </>
     ),
   },

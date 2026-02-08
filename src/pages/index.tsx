@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Zur Dokumentation
           </Link>
         </div>
       </div>
@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Willkommen bei ${siteConfig.title}`}
+      description="Dokumentation und Wissensbasis für OrdoServus, eine katholische Software.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
