@@ -1,41 +1,102 @@
-# Website
+# ⛪ OrdoServus Desktop
+**Der digitale Begleiter für Liturgie und Pastoral – als Desktop-Anwendung.**
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+OrdoServus Desktop ist eine native Desktop-Anwendung, die die OrdoServus-Web-App in einem eingebetteten Browser-Fenster läuft. Sie bietet eine nahtlose Erfahrung für liturgische Planung und Notizen, mit zusätzlichen Desktop-Features wie System-Tray, Dark Mode und Offline-Zugriff.
 
-## Installation
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+## ✨ Funktionen
+- **Eingebettete Web-App:** Vollständiger Zugriff auf OrdoServus im Desktop-Fenster.
+- **System-Tray-Integration:** Minimieren in die Taskleiste für Hintergrundbetrieb.
+- **Dark Mode:** Umschaltbarer dunkler Modus für besseren Komfort.
+- **Zoom-Steuerung:** Anpassbare Zoom-Stufen für die Web-Ansicht.
+- **Automatische Updates:** Integrierte Update-Prüfung über GitHub Releases.
+- **Datei-Downloads:** Direkter Download von Dateien aus der Web-App.
+- **Lokale Einstellungen:** Persistente Speicherung von Präferenzen.
+
+## 🚀 Technologie
+- **Sprache:** Python 3.8+
+- **GUI-Framework:** [PyQt5](https://pypi.org/project/PyQt5/) mit Qt WebEngine
+- **Web-App:** Integriert [OrdoServus Web](https://github.com/flohulo/ordoservus)
+- **Packaging:** PyInstaller für ausführbare Dateien
+- **Lizenz:** MIT
+
+## 🛠️ Installation & Nutzung
+
+### Voraussetzungen
+- Python 3.8 oder höher
+- pip für Paketinstallation
+
+### Installation
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/OrdoServus/Desktop-test.git
+   cd Desktop-test
+   ```
+
+2. Abhängigkeiten installieren:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Wichtig:** Öffne `src/main.py` und passe die `TARGET_URL` an die tatsächliche URL deiner OrdoServus-Web-App an.
+
+4. Anwendung starten:
+   ```bash
+   python -m src.main
+   ```
+
+## 📦 Ausführbare Datei erstellen
+
+Um eine standalone .exe-Datei zu erstellen:
 
 ```bash
-yarn
+pip install pyinstaller
+pyinstaller --onefile --windowed --icon=assets/icon.ico --name="OrdoServus Desktop" src/main.py
 ```
 
-## Local Development
+Die .exe-Datei befindet sich dann im `dist/`-Ordner.
 
-```bash
-yarn start
+## 📁 Projektstruktur
+```
+Desktop-test/
+├── src/                    # Quellcode
+│   ├── __init__.py         # Paket-Initialisierung
+│   ├── __version__.py      # Version
+│   ├── main.py             # Einstiegspunkt
+│   ├── ui.py               # GUI-Klasse
+│   ├── settings.py         # Einstellungsverwaltung
+│   └── updater.py          # Update-Modul
+├── assets/                 # Ressourcen (Icons, etc.)
+│   └── icon.ico            # Anwendungs-Icon (erstellen)
+├── requirements.txt        # Python-Abhängigkeiten
+├── README.md               # Diese Datei
+├── CONTRIBUTING.md         # Beitragsrichtlinien
+├── LICENSE                 # MIT-Lizenz
+└── SECURITY.md             # Sicherheitsrichtlinien
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## ⚙️ Konfiguration
 
-## Build
-
-```bash
-yarn build
+### URL anpassen
+Öffne `src/main.py` und ändere die `TARGET_URL`:
+```python
+TARGET_URL = "https://deine-ordoservus-url.de"
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Icon hinzufügen
+Lege eine `icon.ico`-Datei im `assets/`-Verzeichnis ab. Du kannst Online-Konverter nutzen, um PNG zu ICO zu konvertieren.
 
-## Deployment
+## 🤝 Beitragen
+Siehe [CONTRIBUTING.md](CONTRIBUTING.md) für Details zu Beiträgen.
 
-Using SSH:
+## 🔒 Sicherheit
+Siehe [SECURITY.md](SECURITY.md) für Sicherheitsrichtlinien.
 
-```bash
-USE_SSH=true yarn deploy
-```
+## 📜 Lizenz
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe [LICENSE](LICENSE) für Details.
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 📧 Kontakt
+- E-Mail: ordo.servus@gmx.ch
+- GitHub: [OrdoServus](https://github.com/OrdoServus)
