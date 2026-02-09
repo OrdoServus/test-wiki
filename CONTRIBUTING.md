@@ -1,84 +1,89 @@
-# Beitrag leisten (CONTRIBUTING)
+﻿# Beitrag leisten (CONTRIBUTING)
 
-Vielen Dank für dein Interesse, zu diesem Projekt beizutragen.  
-Dieses Repository gehört zur kostenlosen Web‑Software der katholischen Kirche und freut sich über konstruktive Beiträge jeder Art.
+Vielen Dank fur dein Interesse, zu diesem Projekt beizutragen. Dieses Repository enthalt die Dokumentation fur OrdoServus und wird mit Docusaurus betrieben.
 
-Bitte lies diese Richtlinien sorgfältig durch, bevor du einen Pull Request eröffnest.
+Bitte lies diese Richtlinien sorgfaltig durch, bevor du einen Pull Request eroffnest.
 
 ---
 
-## 🧭 Grundprinzipien
+## Grundprinzipien
 
-- Beiträge sollen der Mission des Projekts dienen: **verlässliche, sichere und zugängliche Software für kirchliche Zwecke**.
+- Beitrage sollen die Qualitat, Verstandlichkeit und Aktualitat der Dokumentation verbessern.
 - Der Umgang miteinander erfolgt respektvoll, freundlich und transparent.
-- Code soll klar, wartbar und dokumentiert sein.
+- Inhalte sollen klar, nachvollziehbar und gut strukturiert sein.
 
 ---
 
-## 🛠 Wie du beitragen kannst
+## Wie du beitragen kannst
 
 ### 1. Fehler melden (Issues)
-Wenn du einen Bug findest:
-
-- Prüfe, ob bereits ein Issue existiert.
+Wenn du einen Fehler findest:
+- Prufe, ob bereits ein Issue existiert.
 - Erstelle ein neues Issue mit:
   - einer klaren Beschreibung
-  - Schritten zur Reproduktion
-  - erwartetes vs. tatsächliches Verhalten
+  - Schritten zur Reproduktion (falls zutreffend)
+  - erwartetem vs. tatsachlichem Verhalten
   - Screenshots oder Logs (falls sinnvoll)
 
 ### 2. Verbesserungen vorschlagen
-Feature‑Vorschläge sind willkommen. Bitte beschreibe:
+Feature- oder Inhaltsvorschlage sind willkommen. Bitte beschreibe:
+- den Nutzen fur die Nutzerinnen und Nutzer
+- mogliche Umsetzungsideen
+- eventuelle Risiken oder Abhangigkeiten
 
-- den Nutzen für die Nutzerinnen und Nutzer
-- mögliche technische Umsetzungsideen
-- eventuelle Risiken oder Abhängigkeiten
-
-### 3. Code‑Beiträge (Pull Requests)
+### 3. Code- und Content-Beitrage (Pull Requests)
 Bevor du einen PR erstellst:
-
 1. Erstelle ein Issue oder kommentiere ein bestehendes.
 2. Forke das Repository.
-3. Erstelle einen Branch mit einem klaren Namen, z. B.  
-   `feature/login-ui`, `fix/form-validation`, `docs/impressum-update`
-4. Schreibe sauberen, gut strukturierten Code.
-5. Füge Tests hinzu, wenn möglich.
-6. Beschreibe im PR:
-   - was geändert wurde
-   - warum es geändert wurde
+3. Erstelle einen Branch mit einem klaren Namen, z. B. `feature/notizbuch-update`, `fix/typos`, `docs/startleitfaden`.
+4. Schreibe saubere, gut strukturierte Anderungen.
+5. Beschreibe im PR:
+   - was geandert wurde
+   - warum es geandert wurde
    - wie es getestet wurde
 
 ---
 
-## 🧪 Code‑Standards
+## Entwicklungsworkflow
 
-- Verwende die bestehende Projektstruktur.
-- Halte dich an die Formatierungsregeln (z. B. Prettier/ESLint, falls vorhanden).
-- Schreibe verständliche Commit‑Messages:
-  - `feat: neues Modul für Benutzerverwaltung`
-  - `fix: Fehler in Formularvalidierung behoben`
-  - `docs: Datenschutzerklärung aktualisiert`
+### Lokales Setup
+```bash
+npm install
+```
 
----
+### Lokaler Dev-Server
+```bash
+npm run start
+```
 
-## 🔒 Sicherheit
-
-Wenn du eine Sicherheitslücke findest:
-
-- **Bitte kein öffentliches Issue erstellen.**
-- Kontaktiere uns direkt unter:  
-  **ordo.servus@gmx.ch**
-- Wir melden uns zeitnah zurück.
+### Qualitatschecks (empfohlen vor PRs)
+```bash
+npm run typecheck
+npm run build
+```
 
 ---
 
-## 📄 Lizenz
+## Struktur und Inhalte
 
-Mit deinem Beitrag erklärst du dich einverstanden, dass dein Code unter der Lizenz dieses Projekts veröffentlicht wird.
+- Inhalte liegen in `docs/` (MD/MDX).
+- Statische Dateien (z. B. Bilder) liegen in `static/`.
+- Die Navigation wird in `sidebars.ts` gepflegt.
+- Site-Einstellungen sind in `docusaurus.config.ts` hinterlegt.
 
 ---
 
-## 🙏 Danke
+## Sicherheit
+Wenn du eine Sicherheitslucke findest:
+- Bitte kein offentliches Issue erstellen.
+- Melde dich uber die Hinweise in `SECURITY.md`.
 
-Jeder Beitrag — ob klein oder gross — hilft, diese Software für kirchliche Einrichtungen und ihre Nutzerinnen und Nutzer zu verbessern.  
-Vielen Dank für deine Unterstützung!
+---
+
+## Lizenz
+Mit deinem Beitrag erklarst du dich einverstanden, dass dein Beitrag unter der MIT-Lizenz dieses Projekts veroffentlicht wird.
+
+---
+
+## Danke
+Jeder Beitrag hilft, die Dokumentation fur OrdoServus besser zu machen. Vielen Dank fur deine Unterstutzung.

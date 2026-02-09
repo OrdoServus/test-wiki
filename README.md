@@ -1,102 +1,50 @@
-# ⛪ OrdoServus Desktop
-**Der digitale Begleiter für Liturgie und Pastoral – als Desktop-Anwendung.**
+﻿# OrdoServus Wiki
 
-OrdoServus Desktop ist eine native Desktop-Anwendung, die die OrdoServus-Web-App in einem eingebetteten Browser-Fenster läuft. Sie bietet eine nahtlose Erfahrung für liturgische Planung und Notizen, mit zusätzlichen Desktop-Features wie System-Tray, Dark Mode und Offline-Zugriff.
+Die Dokumentations- und Wissensbasis rund um OrdoServus. Dieses Repository enthalt die Docusaurus-Website (deutsch) und die Inhalte in `docs/`.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+## Voraussetzungen
+- Node.js `>=20`
+- npm
 
-## ✨ Funktionen
-- **Eingebettete Web-App:** Vollständiger Zugriff auf OrdoServus im Desktop-Fenster.
-- **System-Tray-Integration:** Minimieren in die Taskleiste für Hintergrundbetrieb.
-- **Dark Mode:** Umschaltbarer dunkler Modus für besseren Komfort.
-- **Zoom-Steuerung:** Anpassbare Zoom-Stufen für die Web-Ansicht.
-- **Automatische Updates:** Integrierte Update-Prüfung über GitHub Releases.
-- **Datei-Downloads:** Direkter Download von Dateien aus der Web-App.
-- **Lokale Einstellungen:** Persistente Speicherung von Präferenzen.
-
-## 🚀 Technologie
-- **Sprache:** Python 3.8+
-- **GUI-Framework:** [PyQt5](https://pypi.org/project/PyQt5/) mit Qt WebEngine
-- **Web-App:** Integriert [OrdoServus Web](https://github.com/flohulo/ordoservus)
-- **Packaging:** PyInstaller für ausführbare Dateien
-- **Lizenz:** MIT
-
-## 🛠️ Installation & Nutzung
-
-### Voraussetzungen
-- Python 3.8 oder höher
-- pip für Paketinstallation
-
-### Installation
-1. Repository klonen:
+## Lokal starten
+1. Abhangigkeiten installieren:
    ```bash
-   git clone https://github.com/OrdoServus/Desktop-test.git
-   cd Desktop-test
+   npm install
    ```
 
-2. Abhängigkeiten installieren:
+2. Entwicklungsserver starten:
    ```bash
-   pip install -r requirements.txt
+   npm run start
    ```
 
-3. **Wichtig:** Öffne `src/main.py` und passe die `TARGET_URL` an die tatsächliche URL deiner OrdoServus-Web-App an.
+Die Seite ist danach unter der lokalen Adresse erreichbar, die Docusaurus im Terminal ausgibt.
 
-4. Anwendung starten:
-   ```bash
-   python -m src.main
-   ```
+## Build und Vorschau
+- Produktionsbuild:
+  ```bash
+  npm run build
+  ```
+- Lokale Vorschau des Builds:
+  ```bash
+  npm run serve
+  ```
 
-## 📦 Ausführbare Datei erstellen
-
-Um eine standalone .exe-Datei zu erstellen:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed --icon=assets/icon.ico --name="OrdoServus Desktop" src/main.py
+## Projektstruktur (Auszug)
+```
+ordowiki/
+├── docs/                 # Dokumentationsseiten (MD/MDX)
+├── src/                  # React-Komponenten, Styles
+├── static/               # Statische Assets (Bilder, Dateien)
+├── docusaurus.config.ts  # Site-Konfiguration
+├── sidebars.ts           # Sidebar-Definition
+└── package.json          # Scripts und Abhangigkeiten
 ```
 
-Die .exe-Datei befindet sich dann im `dist/`-Ordner.
+## Beitragen
+Siehe `CONTRIBUTING.md` fur Details zu Issues und Pull Requests.
 
-## 📁 Projektstruktur
-```
-Desktop-test/
-├── src/                    # Quellcode
-│   ├── __init__.py         # Paket-Initialisierung
-│   ├── __version__.py      # Version
-│   ├── main.py             # Einstiegspunkt
-│   ├── ui.py               # GUI-Klasse
-│   ├── settings.py         # Einstellungsverwaltung
-│   └── updater.py          # Update-Modul
-├── assets/                 # Ressourcen (Icons, etc.)
-│   └── icon.ico            # Anwendungs-Icon (erstellen)
-├── requirements.txt        # Python-Abhängigkeiten
-├── README.md               # Diese Datei
-├── CONTRIBUTING.md         # Beitragsrichtlinien
-├── LICENSE                 # MIT-Lizenz
-└── SECURITY.md             # Sicherheitsrichtlinien
-```
+## Sicherheit
+Siehe `SECURITY.md` fur den Umgang mit Sicherheitsmeldungen.
 
-## ⚙️ Konfiguration
-
-### URL anpassen
-Öffne `src/main.py` und ändere die `TARGET_URL`:
-```python
-TARGET_URL = "https://deine-ordoservus-url.de"
-```
-
-### Icon hinzufügen
-Lege eine `icon.ico`-Datei im `assets/`-Verzeichnis ab. Du kannst Online-Konverter nutzen, um PNG zu ICO zu konvertieren.
-
-## 🤝 Beitragen
-Siehe [CONTRIBUTING.md](CONTRIBUTING.md) für Details zu Beiträgen.
-
-## 🔒 Sicherheit
-Siehe [SECURITY.md](SECURITY.md) für Sicherheitsrichtlinien.
-
-## 📜 Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe [LICENSE](LICENSE) für Details.
-
-## 📧 Kontakt
-- E-Mail: ordo.servus@gmx.ch
-- GitHub: [OrdoServus](https://github.com/OrdoServus)
+## Lizenz
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe `LICENSE`.

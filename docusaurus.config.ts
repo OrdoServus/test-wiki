@@ -90,7 +90,7 @@ const config: Config = {
           items: [
             {
               label: 'Startleitfaden',
-              to: '/docs/startleitfaden',
+              to: '/docs/Start/startleitfaden',
             },
             {
               label: 'Notizbuch',
