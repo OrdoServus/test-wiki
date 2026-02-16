@@ -58,9 +58,9 @@ const config: Config = {
           label: '📖 Dokumentation',
         },
         {
-          to: '/docs/Funktion/intro',
-          label: '🗂️ Funktionen',
-          position: 'left',
+          href: 'https://github.com/ordoservus/ordowiki',
+          label: 'OrdoServus',
+          position: 'right',
         },
         {
           href: 'https://github.com/ordoservus/ordowiki',
@@ -80,8 +80,8 @@ const config: Config = {
               to: '/docs/intro',
             },
             {
-              label: 'OrdoServus',
-              href: 'https://github.com/ordoservus/ordowiki',
+              label: 'OrdoServus auf Github',
+              href: 'https://github.com/ordoservus/',
             },
           ],
         },
@@ -92,23 +92,11 @@ const config: Config = {
               label: 'Startleitfaden',
               to: '/docs/Start/startleitfaden',
             },
-            {
-              label: 'Notizbuch',
-              to: '/docs/Funktion/notizbuch',
-            },
-            {
-              label: 'GD-Planer',
-              to: '/docs/Funktion/gd-planer',
-            },
           ],
         },
         {
           title: 'Community',
           items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/ordoservus/ordowiki',
-            },
             {
               label: 'Mitwirken',
               to: '/docs/mitwirken',

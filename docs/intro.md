@@ -3,52 +3,49 @@ sidebar_position: 1
 title: Willkommen
 ---
 
-# Willkommen bei OrdoServus
+# Willkommen bei OrdoServus ❤️
 
-**OrdoServus** ist eine umfassende Software-Lösung für die katholische Kirche, die liturgische Dienste und Gemeindeverwaltung vereinfacht.
+Schön, dass du hier bist! Wir freuen uns, dir **OrdoServus** vorstellen zu können – deinen hilfreichen Begleiter für die Gemeindearbeit.
 
 ## 🎯 Was ist OrdoServus?
 
-OrdoServus unterstützt Priester, Diakone, Pastoralreferenten und ehrenamtliche Mitarbeiter bei:
+OrdoServus ist eine praktische Software, die dir den Alltag in der Gemeinde erleichtert. Stell dir vor, du hast alle wichtigen Informationen an einem Ort – übersichtlich, einfach und jederzeit griffbereit.
 
-- 📖 **Liturgischen Feiern** - Zugriff auf Messbuch, Lektionar und Stundengebet
-- 📅 **Gottesdienstplanung** - Übersichtliche Kalender und Planungswerkzeuge
-- 👥 **Dienstplanung** - Organisation von Ministranten, Lektoren und anderen Diensten
-- ⛪ **Gemeindeverwaltung** - Verwaltung von Veranstaltungen und Terminen
+**OrdoServus hilft dir bei:**
 
-## 🚀 Schnellstart
+- 📖 **Liturgischen Feiern** – Du hast Zugriff auf das Messbuch, Lektionar und Stundengebet
+- 📅 **Gottesdienstplanung** – Plane Gottesdienste ganz einfach mit dem integrierten Kalender
+- 👥 **Dienstplanung** – Organisiere Ministranten, Lektoren und andere Helfer ohne Stress
+- ⛪ **Gemeindeverwaltung** – Behalte den Überblick über Veranstaltungen und Termine
 
-### Erste Schritte
+## 🚀 Wie du mit OrdoServus startest
 
-1. **Installation vorbereiten**
-   - [Node.js](https://nodejs.org/) Version 20.0 oder höher installieren
-   - Git für Versionskontrolle (optional, aber empfohlen)
+Keine Sorge – du musst kein Technik-Experte sein! OrdoServus ist so gestaltet, dass du sofort loslegen kannst.
 
-2. **OrdoServus installieren**
-   ```bash
-   npm install ordoservus
-   ```
+**So funktioniert es:**
 
-3. **Anwendung starten**
-   ```bash
-   npm start
-   ```
-   
-   Die Anwendung läuft dann unter `http://localhost:3000/`
+1. Melde dich bei OrdoServus an – entweder über deinen Browser oder die App
+2. Entdecke die verschiedenen Bereiche in der linken Menüleiste
+3. Beginne mit der Planung deines ersten Gottesdienstes
 
-## 📚 Hauptbereiche
+Falls du noch unsicher bist, helfen dir unsere [Anleitungen für Einsteiger](/docs/Start/startleitfaden) weiter!
 
-## 🤝 Mitwirken
+## 📚 Was dich erwartet
 
-OrdoServus ist ein Community-Projekt. Deine Beiträge sind willkommen!
+In dieser Dokumentation findest du alles, was du brauchst:
 
-- 🐛 Fehler melden
-- 💡 Verbesserungsvorschläge einreichen
-- 📝 Dokumentation verbessern
-- 💻 Code beisteuern
+- **Anleitungen** – Schritt-für-Schritt-Erklärungen für alle Funktionen
+- **Tipps & Tricks** – So nutzt du OrdoServus noch effiziententer
+- **Hilfe** – Wenn du mal nicht weiterkommst
 
-[Mehr über Mitwirken erfahren](/docs/mitwirken)
+## 🤝 Du hast Fragen oder Feedback?
 
-## 📞 Hilfe & Support
+Wir sind für dich da! 
 
-- 💬 [GitHub Discussions](https://github.com/ordoservus/ordowiki/discussions)
+- 💬 Diskutiere mit uns in unserer Community
+- 💡 Verrate uns deine Ideen – wir hören gerne zu
+- 🐛 Fallen dir Fehler auf? Lass es uns wissen
+
+[Mehr über Feedback geben](/docs/Start/feedback)
+
+Gemeinsam machen wir die Gemeindearbeit noch einfacher! 🙏

@@ -41,10 +41,10 @@ ordowiki/
 ```
 
 ## Beitragen
-Siehe `CONTRIBUTING.md` fur Details zu Issues und Pull Requests.
+Docs konnen direkt auf `main` bearbeitet werden (z. B. über den Edit-Link). Anderungen am Programm/Code sollen immer über Pull Requests laufen. Details in `CONTRIBUTING.md`.
 
 ## Sicherheit
-Siehe `SECURITY.md` fur den Umgang mit Sicherheitsmeldungen.
+Siehe `SECURITY.md` für den Umgang mit Sicherheitsmeldungen.
 
 ## Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe `LICENSE`.

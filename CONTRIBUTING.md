@@ -42,6 +42,10 @@ Bevor du einen PR erstellst:
    - warum es geandert wurde
    - wie es getestet wurde
 
+### 4. Direkt-Edits an der Dokumentation
+- Dokumentationsanderungen (MD/MDX in `docs/`) dürfen direkt auf `main` erfolgen, z. B. über den Edit-Link in der Seite.
+- Anderungen am Programm/Code laufen immer uber Pull Requests.
+
 ---
 
 ## Entwicklungsworkflow
