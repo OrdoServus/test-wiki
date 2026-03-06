@@ -46,6 +46,6 @@ Wir sind für dich da!
 - 💡 Verrate uns deine Ideen – wir hören gerne zu
 - 🐛 Fallen dir Fehler auf? Lass es uns wissen
 
-[Mehr über Feedback geben](/docs/Start/feedback)
+[Mehr über Feedback geben](/docs/Support/feedback)
 
 Gemeinsam machen wir die Gemeindearbeit noch einfacher! 🙏

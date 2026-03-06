@@ -73,4 +73,4 @@ Egal, ob du viel oder wenig Zeit hast, ob du technik-affin bist oder nicht – j
 
 Gemeinsam können wir etwas Großes schaffen! 🙏
 
-Noch Fragen? Dann schau dir gerne unseren [Feedback-Bereich](/docs/Start/feedback) an!
+Noch Fragen? Dann schau dir gerne unseren [Feedback-Bereich](/docs/Support/feedback) an!

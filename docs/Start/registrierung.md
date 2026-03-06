@@ -48,6 +48,6 @@ Klicken Sie auf den Button "**Registrieren**". Wenn alle Angaben korrekt sind, w
 Sollten während der Registrierung Fehler auftreten:
 
 *   **Fehlermeldungen:** Das Formular zeigt spezifische Hinweise an (z. B. "Passwort zu schwach" oder "E-Mail bereits in Verwendung"). Bitte korrigieren Sie Ihre Eingaben entsprechend.
-*   **Technischer Support:** Bei unerwarteten Problemen oder wenn Sie Hilfe benötigen, können Sie sich jederzeit an uns wenden. Da dieses Projekt von Freiwilligen betrieben wird, können Sie Fehler oder Anregungen direkt auf unserer [GitHub-Seite](https://github.com/your-repo) einreichen oder uns per E-Mail kontaktieren.
+*   **Technischer Support:** Bei unerwarteten Problemen oder wenn Sie Hilfe benötigen, können Sie sich jederzeit an uns wenden. Da dieses Projekt von Freiwilligen betrieben wird, können Sie Fehler oder Anregungen direkt auf unserer [GitHub-Seite](https://github.com/ordoservus/ordowiki) einreichen oder uns per E-Mail kontaktieren.
 
 Vielen Dank, dass Sie sich für OrdoServus entschieden haben

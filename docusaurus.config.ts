@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'Mitwirken',
-              to: '/docs/mitwirken',
+              to: '/docs/Support/mitwirken',
             },
           ],
         },

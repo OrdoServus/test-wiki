@@ -47,14 +47,14 @@ Nach dem Anmelden siehst du die Hauptansicht von OrdoServus:
 
 ## Häufige Fragen
 
-**Frage:** Was mache ich, wenn ich etwas nicht finde?
+**Frage:** Was mache ich, wenn ich etwas nicht finde?  
 **Antwort:** Nutze die Suchfunktion oben oder schau in der Menüleiste nach.
 
 **Frage:** Kann ich auch offline arbeiten?
 **Antwort:** OrdoServus funktioniert am besten mit Internet. Einige Funktionen sind aber auch offline verfügbar.
 
-**Frage:** An wen wende ich mich bei Problemen?
-**Antwort:** Schau dir unsere [Feedback-Seite](/docs/Start/feedback) an – dort erfährst du, wie du uns erreichst.
+**Frage:** An wen wende ich mich bei Problemen?  
+**Antwort:** Schau dir unsere [Feedback-Seite](/docs/Support/feedback) an – dort erfährst du, wie du uns erreichst.
 
 ## Praktische Tipps für den Start
 
@@ -66,8 +66,8 @@ Nach dem Anmelden siehst du die Hauptansicht von OrdoServus:
 
 ## Weiterführende Hilfe
 
-- 📖 [Mehr über den Gottesdienst-Planer](/docs/Funktion/gd-planer)
-- 📓 [Mehr über das Notizbuch](/docs/Funktion/notizbuch)
-- 💬 [Kontakt für Fragen](/docs/Start/feedback)
+- 📖 [Mehr über den Gottesdienst-Planer](/docs/GD-Planer/gd-planer)
+- 📓 [Mehr über das Notizbuch](/docs/Notzizbuch/notizbuch)
+- 💬 [Kontakt für Fragen](/docs/Support/feedback)
 
 Viel Erfolg und Freude mit OrdoServus! 🙏
