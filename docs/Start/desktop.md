@@ -9,20 +9,6 @@ title: Desktop-App
 
 ---
 
-## 📋 Inhaltsverzeichnis
-
-1. [Einführung](#einführung)
-2. [Installation](#installation)
-3. [Erste Schritte](#erste-schritte)
-4. [Funktionen & Bedienung](#funktionen--bedienung)
-5. [Einstellungen](#einstellungen)
-6. [Tastenkürzel](#tastenkürzel)
-7. [Fehlerbehebung](#fehlerbehebung)
-8. [FAQ – Häufig gestellte Fragen](#faq--häufig-gestellte-fragen)
-9. [Kontakt & Support](#kontakt--support)
-
----
-
 ## 1. Einführung
 
 ### Was ist OrdoServus Desktop?

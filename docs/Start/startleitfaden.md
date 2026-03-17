@@ -66,8 +66,8 @@ Nach dem Anmelden siehst du die Hauptansicht von OrdoServus:
 
 ## Weiterführende Hilfe
 
-- 📖 [Mehr über den Gottesdienst-Planer](/docs/GD-Planer/gd-planer)
-- 📓 [Mehr über das Notizbuch](/docs/Notzizbuch/notizbuch)
-- 💬 [Kontakt für Fragen](/docs/Support/feedback)
+- 📖 [Mehr über den Gottesdienst-Planer](/docs/GD-Planer/gd-planer.md)
+- 📓 [Mehr über das Notizbuch](/docs/Notzizbuch/notizbuch.md)
+- 💬 [Kontakt für Fragen](/docs/Support/feedback.md)
 
 Viel Erfolg und Freude mit OrdoServus! 🙏
